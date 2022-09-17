@@ -1,0 +1,1 @@
+robot -d .logs Tests\Validar_Agi_Blog.robot
