@@ -27,14 +27,21 @@ pip install robotframework-seleniumlibary
 ```
 
 ## WebDrivers: Incluir a localização em sue ambiente Path (versão compatível com o seu navegador):
+
+```bash
 Para Google Chrome -------  https://chromedriver.chromium.org/downloads
 Para Mozilla Firefox -----  https://github.com/mozilla/geckodriver/releases
+```
 
 ## :computer: Preparando o Ambiente
+
+
 Clone o projeto do GitHub em um diretório:
 
+```bash
 cd "seu diretorio"
 git clone https://github.com/Jonathas92/Desafio_AGI.git
+```
 
 ## :black_nib: Cenário de Testes
 
