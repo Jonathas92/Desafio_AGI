@@ -26,9 +26,17 @@ pip install robotframework
 pip install robotframework-seleniumlibary
 ```
 
-## :black_nib: Cenário de Testes
+## WebDrivers: Incluir a localização em sue ambiente Path (versão compatível com o seu navegador):
+Para Google Chrome -------  https://chromedriver.chromium.org/downloads
+Para Mozilla Firefox -----  https://github.com/mozilla/geckodriver/releases
 
-Comando para instalação do Cypress e Pluggins
+## :computer: Preparando o Ambiente
+Clone o projeto do GitHub em um diretório:
+
+cd "seu diretorio"
+git clone https://github.com/Jonathas92/Desafio_AGI.git
+
+## :black_nib: Cenário de Testes
 
 ```bash
   Validação da funcionalidade pesquisar (Validar_Agi_Blog.robot)
