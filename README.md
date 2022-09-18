@@ -26,7 +26,7 @@ pip install robotframework
 pip install robotframework-seleniumlibary
 ```
 
-## WebDrivers: Incluir a localização em sue ambiente Path (versão compatível com o seu navegador):
+### ⚠️ WebDrivers: Incluir a localização em sue ambiente Path (versão compatível com o seu navegador):
 
 ```bash
 Para Google Chrome -------  https://chromedriver.chromium.org/downloads
@@ -57,10 +57,12 @@ Executar o arquivo run.bat para executar o teste ou executar o comando abaixo pe
 ```bash
   robot -d .logs Tests\validar_pesquisa.robot
 ```
+### Visualização da Automação:
+<img src="https://github.com/Jonathas92/Desafio_AGI/blob/master/Videos/Automacao_AGI.gif"/>
+
 ## 🚀 Autor
 Jonathas Santos
 
 
 ## 🔗 Links
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/jonathasbsantos)
-
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jonathasbsantos)
