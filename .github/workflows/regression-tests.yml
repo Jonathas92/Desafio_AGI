@@ -18,11 +18,7 @@ jobs:
     - uses: abhi1693/setup-browser@v0.3.4
       with:
         browser: chrome
-        version: '88.0.4324.96'
     - uses: nanasess/setup-chromedriver@master
-      with:
-        # Optional: do not specify to match Chrome's version
-        chromedriver-version: '88.0.4324.96'
     - run: |
         export DISPLAY=:99
         chromedriver --url-base=/wd/hub &
