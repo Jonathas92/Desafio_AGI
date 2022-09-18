@@ -3,7 +3,9 @@ name: Regression Tests
 on:
   push:
     branches: [ "master" ]
-
+env:
+  caminho: /home/runner/work/Desafio_AGI/Desafio_AGI
+  BROWSER: BROWSER
 jobs:
   tests:
 
