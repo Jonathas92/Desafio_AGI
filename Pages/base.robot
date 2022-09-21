@@ -8,8 +8,8 @@ ${BROWSER}          chrome
 
 *** Keywords ***
 Nova sessao    
-    Open Browser                    ${url}     ${BROWSER}
-    Maximize Browser Window
+    Open Browser                    ${url}     ${BROWSER}       options=add_argument("--window-size=1920,1080")
+    #Maximize Browser Window
 
     #Pegar data atual e mover evidencias para a pasta
     ${DATA_ATUAL}=                      Get Current Date                                                  result_format=%d.%m.%Y_%H%M
